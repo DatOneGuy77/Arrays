@@ -42,3 +42,6 @@ while start < end:
     end -= 1 #Move the end index one step backwards 
 
 print(list_1)
+
+
+
