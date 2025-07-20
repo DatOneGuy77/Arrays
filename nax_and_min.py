@@ -4,24 +4,24 @@ Date: 7/18/2025
 File: Finding the Max and Min value in an array!
 """
 
-# Find the max value of an array
+#Find the max value of an array, now lets also make a funtion for this:
 list_2 = [5, 20, 45, 11, 94]
 
-max_val = max(list_2)
+def max_value(any_list):
+    max_val = max(any_list)
+    return max_val
 
-print(max_val)
+print(max_value(list_2))
 print("-" * 100)
 
-# Find the min value of an array
+#Now lets create a function with this: 
 list_3 = [8, 10, 492, 321, 45, 78, 97]
 
-min_val = min(list_3)
-print(min_val)
+def min_value(any_list):
+    min_val = min(any_list)
+    return min_val
 
-#Now lets create a function with this: 
-def max_value():
-    list_3 
-    return max_val
+print(min_value(list_3))
 
 
 # start = list_2[0] #start now contains index 0 which has the value of 5
