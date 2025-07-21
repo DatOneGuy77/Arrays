@@ -22,10 +22,10 @@ def min_value(any_list):
     return min_val
 
 print(min_value(list_3))
+print('-' * 100)
 
-
-# start = list_2[0] #start now contains index 0 which has the value of 5
-# max_val = .ma
-
-# while 
+list_1 = [24, 59, 93, 20, 43]
+print(list_1)
+print(min_value(list_1))
+print(max_value(list_1))
      
