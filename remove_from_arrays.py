@@ -8,7 +8,7 @@ File: This is to practice removing stuff arrays! Including duplicates, even numb
 list_1 = [20, 40, 20, 32, 59, 2]
 
 def remove_dupliates(any_list):
-    removed = set(any_list)
+    removed = set(any_list) #sets only remove duplicates and makes the array unordered
     return removed
 
 print(remove_dupliates(list_1))

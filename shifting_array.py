@@ -21,3 +21,16 @@ def shift_left_by_1(any_list):
     return any_list
 
 print(shift_left_by_1(list_1))
+
+#This time we shift by the right
+list_2 = [20, 50, 80 ,90, 100]
+# Original: [20, 50, 80 ,90, 100]
+# Result:   [100, 20, 50, 80, 90]
+
+print(list_2)
+
+def shift_right_by_1(any_list):
+    shifted_list = [any_list[-1]] + any_list[:-1]
+    return shifted_list
+
+print(shift_right_by_1(list_2))
