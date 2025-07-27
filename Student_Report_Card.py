@@ -53,12 +53,12 @@ class Classes:
         subjects_list = self.Subjects()
         instance_of_Student = Student("name")
 
-        classes = []
+        classes = [] #empty list to stro everything (specifically to add every class!!)
 
-        for subjects in subjects_list:
-            classes.append([subjects, instance_of_Student.all_list()]) 
+        for subjects in subjects_list: #For every subject in subject list
+            classes.append([subjects, instance_of_Student.all_list()]) #adding every subject into the students report card
 
-        return [print(item) for item in classes]
+        return [print(item) for item in classes] #With every Subject for every persons report card we print a new line per subject
     
 if __name__ == "__main__":
     student = Student("name")
