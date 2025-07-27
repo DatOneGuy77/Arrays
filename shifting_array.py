@@ -1,7 +1,7 @@
 """
 Erick Gonzalez Cruz
 7/20/2025
-File: I will try and shift the places of a list! 
+File: I will try and shift the places of a list! (at-least the concept of an array)
 """
 
 #Find a way to shift every element in this list to the left!

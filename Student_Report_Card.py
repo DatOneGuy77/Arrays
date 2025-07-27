@@ -1,7 +1,7 @@
 """
 Erick Gonzalez Cruz
 07/23/2025
-File: This is a reprt card system using Object oriented proggraming in the data-structure array! 
+File: This is a reprt card system using Object oriented proggraming in the data-structure array! (sort-of) 
 """
 import random 
 
