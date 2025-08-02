@@ -6,7 +6,7 @@ File: Working with an actual array
 
 import numpy as np 
 
-"""Using Addition in Arrays"""
+"""Using Addition in Arrays. THis could be used to multiply, divide, and subtract!"""
 # my_array = np.array([50, 100, 200, 400, 800, 1600])
 # my_array_2 = np.array([30, 90, 140, 293, 324, 743])
 
